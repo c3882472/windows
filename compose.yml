@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "xp"
+      VERSION: "2003"
       DISK_SIZE: "32G"
     devices:
       - /dev/kvm
