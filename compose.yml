@@ -3,7 +3,10 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "11l"
+      DISK_SIZE: "32G"
+      CPU_CORES: "4"
+      RAM_SIZE: "8G"
     devices:
       - /dev/kvm
       - /dev/net/tun
