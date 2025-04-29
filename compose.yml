@@ -3,8 +3,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "2003"
-      DISK_SIZE: "11"
+      VERSION: "11"
+      DISK_SIZE: "32G"
     devices:
       - /dev/kvm
       - /dev/net/tun
