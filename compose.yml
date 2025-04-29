@@ -4,7 +4,7 @@ services:
     container_name: windows
     environment:
       VERSION: "2003"
-      DISK_SIZE: "11l"
+      DISK_SIZE: "11"
     devices:
       - /dev/kvm
       - /dev/net/tun
